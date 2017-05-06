@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99B383251E8E85B500676050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383241E8E85B500676050 /* main.m */; };
+		99B383281E8E85B500676050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383271E8E85B500676050 /* AppDelegate.m */; };
+		99B3832E1E8E85B500676050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B3832C1E8E85B500676050 /* Main.storyboard */; };
+		99B383301E8E85B500676050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B3832F1E8E85B500676050 /* Assets.xcassets */; };
+		99B383331E8E85B600676050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B383311E8E85B500676050 /* LaunchScreen.storyboard */; };
+		99B3833E1E8E85B600676050 /* DrawingCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3833D1E8E85B600676050 /* DrawingCircleTests.m */; };
+		99B383491E8E85B600676050 /* DrawingCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383481E8E85B600676050 /* DrawingCircleUITests.m */; };
+		99B3835D1E8E876400676050 /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383581E8E876400676050 /* NodeView.m */; };
+		99B3835E1E8E876400676050 /* UnBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3835A1E8E876400676050 /* UnBlockView.m */; };
+		99B3835F1E8E876400676050 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3835C1E8E876400676050 /* ViewController.m */; };
+		99B383631E8E878B00676050 /* ChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383621E8E878B00676050 /* ChooseViewController.m */; };
+		99B383671E8E87C600676050 /* DrawingCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383661E8E87C600676050 /* DrawingCircleViewController.m */; };
+		99B383731E8E885300676050 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3836A1E8E885300676050 /* CanvasView.m */; };
+		99B383741E8E885300676050 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3836C1E8E885300676050 /* CanvasViewController.m */; };
+		99B383751E8E885300676050 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3836E1E8E885300676050 /* ColorView.m */; };
+		99B383761E8E885300676050 /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383701E8E885300676050 /* LineModel.m */; };
+		99B383771E8E885300676050 /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B383721E8E885300676050 /* ToolView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99B3833A1E8E85B600676050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B383181E8E85B500676050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B3831F1E8E85B500676050;
+			remoteInfo = DrawingCircle;
+		};
+		99B383451E8E85B600676050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B383181E8E85B500676050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B3831F1E8E85B500676050;
+			remoteInfo = DrawingCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99B383201E8E85B500676050 /* DrawingCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B383241E8E85B500676050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99B383261E8E85B500676050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99B383271E8E85B500676050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99B3832D1E8E85B500676050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B3832F1E8E85B500676050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99B383321E8E85B600676050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B383341E8E85B600676050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B383391E8E85B600676050 /* DrawingCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B3833D1E8E85B600676050 /* DrawingCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingCircleTests.m; sourceTree = "<group>"; };
+		99B3833F1E8E85B600676050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B383441E8E85B600676050 /* DrawingCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B383481E8E85B600676050 /* DrawingCircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingCircleUITests.m; sourceTree = "<group>"; };
+		99B3834A1E8E85B600676050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B383571E8E876400676050 /* NodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeView.h; sourceTree = "<group>"; };
+		99B383581E8E876400676050 /* NodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeView.m; sourceTree = "<group>"; };
+		99B383591E8E876400676050 /* UnBlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnBlockView.h; sourceTree = "<group>"; };
+		99B3835A1E8E876400676050 /* UnBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnBlockView.m; sourceTree = "<group>"; };
+		99B3835B1E8E876400676050 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99B3835C1E8E876400676050 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99B383611E8E878B00676050 /* ChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseViewController.h; sourceTree = "<group>"; };
+		99B383621E8E878B00676050 /* ChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseViewController.m; sourceTree = "<group>"; };
+		99B383651E8E87C600676050 /* DrawingCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingCircleViewController.h; sourceTree = "<group>"; };
+		99B383661E8E87C600676050 /* DrawingCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingCircleViewController.m; sourceTree = "<group>"; };
+		99B383691E8E885300676050 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		99B3836A1E8E885300676050 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		99B3836B1E8E885300676050 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		99B3836C1E8E885300676050 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		99B3836D1E8E885300676050 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		99B3836E1E8E885300676050 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		99B3836F1E8E885300676050 /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
+		99B383701E8E885300676050 /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
+		99B383711E8E885300676050 /* ToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		99B383721E8E885300676050 /* ToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B3831D1E8E85B500676050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B383361E8E85B600676050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B383411E8E85B600676050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99B383171E8E85B500676050 = {
+			isa = PBXGroup;
+			children = (
+				99B383221E8E85B500676050 /* DrawingCircle */,
+				99B3833C1E8E85B600676050 /* DrawingCircleTests */,
+				99B383471E8E85B600676050 /* DrawingCircleUITests */,
+				99B383211E8E85B500676050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99B383211E8E85B500676050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B383201E8E85B500676050 /* DrawingCircle.app */,
+				99B383391E8E85B600676050 /* DrawingCircleTests.xctest */,
+				99B383441E8E85B600676050 /* DrawingCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B383221E8E85B500676050 /* DrawingCircle */ = {
+			isa = PBXGroup;
+			children = (
+				99B383641E8E87B200676050 /* drawingCircle */,
+				99B383601E8E877B00676050 /* ChooseViewController */,
+				99B383561E8E870B00676050 /* 锁屏效果实现 */,
+				99B383681E8E881500676050 /* 绘图板功能 */,
+				99B383261E8E85B500676050 /* AppDelegate.h */,
+				99B383271E8E85B500676050 /* AppDelegate.m */,
+				99B3832C1E8E85B500676050 /* Main.storyboard */,
+				99B3832F1E8E85B500676050 /* Assets.xcassets */,
+				99B383311E8E85B500676050 /* LaunchScreen.storyboard */,
+				99B383341E8E85B600676050 /* Info.plist */,
+				99B383231E8E85B500676050 /* Supporting Files */,
+			);
+			path = DrawingCircle;
+			sourceTree = "<group>";
+		};
+		99B383231E8E85B500676050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B383241E8E85B500676050 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99B3833C1E8E85B600676050 /* DrawingCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				99B3833D1E8E85B600676050 /* DrawingCircleTests.m */,
+				99B3833F1E8E85B600676050 /* Info.plist */,
+			);
+			path = DrawingCircleTests;
+			sourceTree = "<group>";
+		};
+		99B383471E8E85B600676050 /* DrawingCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99B383481E8E85B600676050 /* DrawingCircleUITests.m */,
+				99B3834A1E8E85B600676050 /* Info.plist */,
+			);
+			path = DrawingCircleUITests;
+			sourceTree = "<group>";
+		};
+		99B383561E8E870B00676050 /* 锁屏效果实现 */ = {
+			isa = PBXGroup;
+			children = (
+				99B383571E8E876400676050 /* NodeView.h */,
+				99B383581E8E876400676050 /* NodeView.m */,
+				99B383591E8E876400676050 /* UnBlockView.h */,
+				99B3835A1E8E876400676050 /* UnBlockView.m */,
+				99B3835B1E8E876400676050 /* ViewController.h */,
+				99B3835C1E8E876400676050 /* ViewController.m */,
+			);
+			name = "锁屏效果实现";
+			sourceTree = "<group>";
+		};
+		99B383601E8E877B00676050 /* ChooseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99B383611E8E878B00676050 /* ChooseViewController.h */,
+				99B383621E8E878B00676050 /* ChooseViewController.m */,
+			);
+			name = ChooseViewController;
+			sourceTree = "<group>";
+		};
+		99B383641E8E87B200676050 /* drawingCircle */ = {
+			isa = PBXGroup;
+			children = (
+				99B383651E8E87C600676050 /* DrawingCircleViewController.h */,
+				99B383661E8E87C600676050 /* DrawingCircleViewController.m */,
+			);
+			name = drawingCircle;
+			sourceTree = "<group>";
+		};
+		99B383681E8E881500676050 /* 绘图板功能 */ = {
+			isa = PBXGroup;
+			children = (
+				99B383691E8E885300676050 /* CanvasView.h */,
+				99B3836A1E8E885300676050 /* CanvasView.m */,
+				99B3836B1E8E885300676050 /* CanvasViewController.h */,
+				99B3836C1E8E885300676050 /* CanvasViewController.m */,
+				99B3836D1E8E885300676050 /* ColorView.h */,
+				99B3836E1E8E885300676050 /* ColorView.m */,
+				99B3836F1E8E885300676050 /* LineModel.h */,
+				99B383701E8E885300676050 /* LineModel.m */,
+				99B383711E8E885300676050 /* ToolView.h */,
+				99B383721E8E885300676050 /* ToolView.m */,
+			);
+			name = "绘图板功能";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B3831F1E8E85B500676050 /* DrawingCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B3834D1E8E85B600676050 /* Build configuration list for PBXNativeTarget "DrawingCircle" */;
+			buildPhases = (
+				99B3831C1E8E85B500676050 /* Sources */,
+				99B3831D1E8E85B500676050 /* Frameworks */,
+				99B3831E1E8E85B500676050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingCircle;
+			productName = DrawingCircle;
+			productReference = 99B383201E8E85B500676050 /* DrawingCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99B383381E8E85B600676050 /* DrawingCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B383501E8E85B600676050 /* Build configuration list for PBXNativeTarget "DrawingCircleTests" */;
+			buildPhases = (
+				99B383351E8E85B600676050 /* Sources */,
+				99B383361E8E85B600676050 /* Frameworks */,
+				99B383371E8E85B600676050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B3833B1E8E85B600676050 /* PBXTargetDependency */,
+			);
+			name = DrawingCircleTests;
+			productName = DrawingCircleTests;
+			productReference = 99B383391E8E85B600676050 /* DrawingCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99B383431E8E85B600676050 /* DrawingCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B383531E8E85B600676050 /* Build configuration list for PBXNativeTarget "DrawingCircleUITests" */;
+			buildPhases = (
+				99B383401E8E85B600676050 /* Sources */,
+				99B383411E8E85B600676050 /* Frameworks */,
+				99B383421E8E85B600676050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B383461E8E85B600676050 /* PBXTargetDependency */,
+			);
+			name = DrawingCircleUITests;
+			productName = DrawingCircleUITests;
+			productReference = 99B383441E8E85B600676050 /* DrawingCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B383181E8E85B500676050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "邹前立";
+				TargetAttributes = {
+					99B3831F1E8E85B500676050 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					99B383381E8E85B600676050 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B3831F1E8E85B500676050;
+					};
+					99B383431E8E85B600676050 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B3831F1E8E85B500676050;
+					};
+				};
+			};
+			buildConfigurationList = 99B3831B1E8E85B500676050 /* Build configuration list for PBXProject "DrawingCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B383171E8E85B500676050;
+			productRefGroup = 99B383211E8E85B500676050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B3831F1E8E85B500676050 /* DrawingCircle */,
+				99B383381E8E85B600676050 /* DrawingCircleTests */,
+				99B383431E8E85B600676050 /* DrawingCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B3831E1E8E85B500676050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B383331E8E85B600676050 /* LaunchScreen.storyboard in Resources */,
+				99B383301E8E85B500676050 /* Assets.xcassets in Resources */,
+				99B3832E1E8E85B500676050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B383371E8E85B600676050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B383421E8E85B600676050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B3831C1E8E85B500676050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B383751E8E885300676050 /* ColorView.m in Sources */,
+				99B383761E8E885300676050 /* LineModel.m in Sources */,
+				99B383771E8E885300676050 /* ToolView.m in Sources */,
+				99B383281E8E85B500676050 /* AppDelegate.m in Sources */,
+				99B3835E1E8E876400676050 /* UnBlockView.m in Sources */,
+				99B383251E8E85B500676050 /* main.m in Sources */,
+				99B383631E8E878B00676050 /* ChooseViewController.m in Sources */,
+				99B3835D1E8E876400676050 /* NodeView.m in Sources */,
+				99B3835F1E8E876400676050 /* ViewController.m in Sources */,
+				99B383731E8E885300676050 /* CanvasView.m in Sources */,
+				99B383671E8E87C600676050 /* DrawingCircleViewController.m in Sources */,
+				99B383741E8E885300676050 /* CanvasViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B383351E8E85B600676050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B3833E1E8E85B600676050 /* DrawingCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B383401E8E85B600676050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B383491E8E85B600676050 /* DrawingCircleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99B3833B1E8E85B600676050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B3831F1E8E85B500676050 /* DrawingCircle */;
+			targetProxy = 99B3833A1E8E85B600676050 /* PBXContainerItemProxy */;
+		};
+		99B383461E8E85B600676050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B3831F1E8E85B500676050 /* DrawingCircle */;
+			targetProxy = 99B383451E8E85B600676050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99B3832C1E8E85B500676050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B3832D1E8E85B500676050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B383311E8E85B500676050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B383321E8E85B600676050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B3834B1E8E85B600676050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99B3834C1E8E85B600676050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B3834E1E8E85B600676050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DrawingCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zql.DrawingCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99B3834F1E8E85B600676050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DrawingCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zql.DrawingCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99B383511E8E85B600676050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawingCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zql.DrawingCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingCircle.app/DrawingCircle";
+			};
+			name = Debug;
+		};
+		99B383521E8E85B600676050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawingCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zql.DrawingCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingCircle.app/DrawingCircle";
+			};
+			name = Release;
+		};
+		99B383541E8E85B600676050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawingCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zql.DrawingCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawingCircle;
+			};
+			name = Debug;
+		};
+		99B383551E8E85B600676050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawingCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zql.DrawingCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawingCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B3831B1E8E85B500676050 /* Build configuration list for PBXProject "DrawingCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B3834B1E8E85B600676050 /* Debug */,
+				99B3834C1E8E85B600676050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B3834D1E8E85B600676050 /* Build configuration list for PBXNativeTarget "DrawingCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B3834E1E8E85B600676050 /* Debug */,
+				99B3834F1E8E85B600676050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B383501E8E85B600676050 /* Build configuration list for PBXNativeTarget "DrawingCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B383511E8E85B600676050 /* Debug */,
+				99B383521E8E85B600676050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B383531E8E85B600676050 /* Build configuration list for PBXNativeTarget "DrawingCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B383541E8E85B600676050 /* Debug */,
+				99B383551E8E85B600676050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B383181E8E85B500676050 /* Project object */;
+}
